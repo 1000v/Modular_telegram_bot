@@ -1,0 +1,39 @@
+{
+    "bot_token": "-",
+    "allowed_users": [
+        "ID-Users"
+    ],
+    "yandex_music_token": "Token_yandex",
+    "download_folder": "downloads",
+    "max_file_size": 50000000,
+    "allowed_extensions": [
+        ".txt",
+        ".pdf",
+        ".jpg",
+        ".png"
+    ],
+    "hidden_files": {
+        "system": [
+            ".dll",
+            ".sys",
+            ".exe",
+            ".bin"
+        ],
+        "temporary": [
+            ".tmp",
+            ".temp",
+            ".cache"
+        ],
+        "hidden": [
+            ".git",
+            ".env",
+            ".vscode",
+            ".idea"
+        ],
+        "backup": [
+            ".bak",
+            ".backup",
+            "~"
+        ]
+    },
+}
